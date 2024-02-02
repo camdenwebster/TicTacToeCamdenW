@@ -29,8 +29,8 @@ class ViewController: UIViewController {
     var firstTurn = Turn.X
     var currentTurn = Turn.X
     
-    var X = "X"
-    var O = "O"
+    let X = "X"
+    let O = "O"
     var board = [UIButton]()
     var oScore = 0
     var xScore = 0
